@@ -37,10 +37,10 @@ This assumes you have `git`
 Run this command in the command line or shell.
 
 ``` sh
-git clone https://github.com/jaredlander/cbs2019fall.git
+git clone https://github.com/jaredlander/cbsfall2019.git
 ```
 
-Then open the `cbs2019fall.Rproj` file.
+Then open the `cbsfall2019.Rproj` file.
 
 ## RStudio Gui
 
@@ -61,7 +61,7 @@ Click `Git`.
 
 Choose a folder in the `Create project as a subdirectory of` field.
 
-Paste `https://github.com/jaredlander/cbs2019fall`\[2\] in the
+Paste `https://github.com/jaredlander/cbsfall2019`\[2\] in the
 `Repository URL` field.
 
 ![](images/rstudio-create-project-git.png)<!-- -->
@@ -75,7 +75,7 @@ Run these commands in the R console.
 install.packages('usethis')
 
 # get the repo
-newProject <- usethis::use_course('https://github.com/jaredlander/cbs2019fall/archive/master.zip')
+newProject <- usethis::use_course('https://github.com/jaredlander/cbsfall2019/archive/master.zip')
 ```
 
 Be sure to select the positive prompts such as `yes`, `yeah`, etc.
@@ -83,7 +83,7 @@ Be sure to select the positive prompts such as `yes`, `yeah`, etc.
 This will open the project in a new RStudio window.
 
 After any of these methods you should have a new RStudio project called
-`cbs2019fall` or `cbs2019fall-master`. You can see this in the top right
+`cbsfall2019` or `cbsfall2019-master`. You can see this in the top right
 of RStudio (the name in the image may be different).
 
 ![](images/ProjectCorner.png)<!-- -->
@@ -108,6 +108,6 @@ this project.
 
 1.  Can also be done with ssh instead of https.
 
-2.  Or `git@github.com:nyhackr/cbs2019fall.git` for ssh.
+2.  Or `git@github.com:nyhackr/cbsfall2019.git` for ssh.
 
 3.  Linux users might need to install `libxml2-dev` and `zlib1g-dev`
